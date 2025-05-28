@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sala do Futuro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌟 Sala do Futuro</h1>
+    <nav>
+      <a href="#atividades">Atividades</a>
+      <a href="#materiais">Materiais</a>
+      <a href="#sala-virtual">Sala Virtual</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="bem-vindo">
+      <h2>Bem-vindo(a)!</h2>
+      <p>Explore as atividades, acesse a sala virtual e acompanhe os conteúdos de forma interativa.</p>
+    </section>
+
+    <section id="atividades">
+      <h2>📘 Atividades</h2>
+      <ul id="lista-atividades"></ul>
+      <input type="text" id="novaAtividade" placeholder="Nova atividade...">
+      <button onclick="adicionarAtividade()">Adicionar</button>
+    </section>
+
+    <section id="materiais">
+      <h2>📚 Materiais de Estudo</h2>
+      <ul>
+        <li><a href="https://example.com/apostila.pdf" target="_blank">Apostila de Ciências</a></li>
+        <li><a href="https://youtube.com" target="_blank">Vídeo Aula - Revolução Industrial</a></li>
+      </ul>
+    </section>
+
+    <section id="sala-virtual">
+      <h2>🧑‍💻 Sala Virtual</h2>
+      <a href="https://meet.google.com" target="_blank">Entrar na Sala</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sala do Futuro - Feito por estudantes visionários.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
